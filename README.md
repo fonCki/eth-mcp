@@ -183,7 +183,7 @@ MIT License - see [LICENSE](LICENSE) for details.
 
 ## Author
 
-Alfonso Ridao - [@alfonsoridao](https://github.com/alfonsoridao)
+Alfonso Ridao - [@alfonsoridao](https://github.com/fonCki)
 
 ---
 
