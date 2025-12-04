@@ -9,6 +9,14 @@ A community-built tool to query 2500+ courses from ETH Zurich using natural lang
 
 > **Note**: This is an unofficial project and is not affiliated with or endorsed by ETH Zurich. Course data is scraped from the publicly available [ETH VVZ](https://www.vvz.ethz.ch/) website.
 
+## Installation
+
+> **Note**: The pre-scraped database (16 MB) is distributed via [Docker Hub](https://hub.docker.com/r/alfonsoridao/eth-mcp), not this repository. Pull the image to get started instantly.
+
+```bash
+docker pull alfonsoridao/eth-mcp:latest
+```
+
 ## Features
 
 - **Pre-loaded Database**: Ships with complete Spring 2026 course data - no waiting!
