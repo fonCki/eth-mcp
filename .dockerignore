@@ -1,0 +1,32 @@
+# Git
+.git
+.gitignore
+
+# Documentation (not needed in container)
+*.md
+LICENSE
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Local data (use volume instead)
+data/
+
+# Plans
+.claude/

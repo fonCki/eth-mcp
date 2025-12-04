@@ -1,0 +1,12 @@
+{
+  "version": "1.0.0",
+  "semesters": {
+    "2026S": {
+      "scraped_at": "2025-12-03T20:40:00Z",
+      "complete": true,
+      "courses": 2514,
+      "lecturers": 2035
+    }
+  },
+  "last_check": "2025-12-03T20:40:00Z"
+}

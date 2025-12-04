@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  eth-mcp:
+    build: .
+    image: alfonsoridao/eth-mcp:latest
+    container_name: eth-mcp-server
+    volumes:
+      - eth-mcp-data:/data
+    stdin_open: true   # Required for MCP stdio communication
+    tty: true
+    # Environment variables (uncomment to use):
+    # environment:
+    #   ETH_SEMESTER: "2026S"    # Force specific semester
+    #   FORCE_REFRESH: "1"       # Force refresh on every start
+
+volumes:
+  eth-mcp-data:
+    name: eth-mcp-data

@@ -1,0 +1,26 @@
+# Database files (too large for git, but keep placeholder)
+db/*.db
+db/*.sqlite
+!db/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+
+# Local data
+data/
+
+# Claude plans (local only)
+.claude/
